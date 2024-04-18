@@ -1,0 +1,18 @@
+body {
+    background-color: #fd96d5; /* preto */
+    color: #ffffff; /* branco */
+}
+
+.btn-lilas {
+    background-color: #b844a4;  /* Lilás forte */
+    color: white;               /* Texto branco */
+    border: none;               /* Sem borda */
+    padding: 8px 15px;          /* Padding interno */
+    border-radius: 5px;         /* Borda arredondada */
+    transition: background-color 0.3s, color 0.3s;  /* Transição suave para hover */
+}
+
+.btn-lilas:hover {
+    background-color: white;   /* Fundo branco ao passar o mouse */
+    color: #9b30ff;            /* Texto lilás ao passar o mouse */
+}
